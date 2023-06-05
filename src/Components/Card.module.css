@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(133, 131, 131);
+
+}
+
+.main{
+    width: 14%;
+    height: 50%;
+    background-color: white;
+    
+}
+.bluffbutton{
+    width: 15rem;
+    height: 4rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bluffbutton:hover{
+    color: red;
+}
+
+.container1{
+    height: 15vh;
+    
+}
+.para{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.moreoption{
+    font-size: 30px;
+     height: 30px; 
+}
+.moreoption:hover{
+    color: blue;
+}
+.field{
+    font-size: 15px;
+    height: 28px;
+    margin-bottom: 30px;
+
+}
+.addbutton{
+    font-size: 21px;
+    
+
+}
+.taskContainer{
+    font-size: 21px;
+
+}
+.delButton{
+    font-size: 21px;
+
+}
