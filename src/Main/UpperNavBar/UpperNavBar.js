@@ -11,7 +11,6 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
 import image from '../../All Images/Images/836-removebg-preview (1).png'
 import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
 
@@ -90,10 +89,7 @@ export function UpperNavBar(props) {
                             <p><FilterListOutlinedIcon /></p>
                             <p>Filters</p>
                         </div>
-                        <Stack>
-                            <Avatar alt='Group 15' src={image} />
-                        </Stack>
-
+                        
                         <div className={Styles.share_options}>
                             <p><PersonAddAltOutlinedIcon /></p>
                             <p>Share</p>
@@ -109,3 +105,43 @@ export function UpperNavBar(props) {
         </Fragment>
     )
 }
+
+// import React from 'react'
+// import style from "./NavBar.module.css"
+// import { BsStar } from 'react-icons/bs';
+// import { MdPeopleOutline} from 'react-icons/md';
+// import { CiViewBoard} from 'react-icons/ci';
+// import { MdOutlineKeyboardArrowDown} from 'react-icons/md';
+// import { MdOutlinePower} from 'react-icons/md';
+// import {AiFillThunderbolt} from 'react-icons/ai';
+// import { BsFilter } from 'react-icons/bs';
+// import { RiContactsLine } from 'react-icons/ri';
+// import { BsThreeDots } from 'react-icons/bs';
+
+// function NavBar() {
+//   return (
+//     <div className={style.container}>
+//         <div className={style.main}>
+//         <h1 className={style.nav}>Home task managment</h1>
+//          <BsStar className={style.Icon1}/>
+//          <MdPeopleOutline className={style.Icon1} />
+//          <p className={style.para}> Workspace visible</p> 
+//           <button className={style.butt}><CiViewBoard className={style.buttonicon}/> Board</button>
+//            <MdOutlineKeyboardArrowDown className={style.ArrowDown}/>
+//            <MdOutlinePower className={style.power}/>
+//            <p className={style.para}>Power-ups</p>
+//            <AiFillThunderbolt className={style.thunder}/>
+//            <p className={style.para}>Automation</p>
+//            <BsFilter className={style.filter}/>
+//            <p className={style.para}>Filter</p>
+//            <button className={style.buttpr}>PR</button>
+//            <button className={style.butt}><RiContactsLine className={style.buttonicon}/>Share</button>
+//             <BsThreeDots className={style.paradots}/>
+
+          
+//         </div>
+//     </div>
+//   )
+// }
+
+// export default NavBar;
