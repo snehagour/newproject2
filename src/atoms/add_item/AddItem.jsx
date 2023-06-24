@@ -44,7 +44,7 @@ function AddItem({ setAddItem, handleAddCardItem }) {
             color="disabled"
           />
      
-        </div>
+        </div> 
         <div>
           <MoreHorizIcon color="disabled" />
         </div>
